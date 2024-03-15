@@ -112,9 +112,9 @@ class BottomSheetFragment : BottomSheetDialogFragment() {
 
         //uploading the entered data to API
         binding.btnAdd.setOnClickListener {
-            binding.progress.visibility=View.VISIBLE
-            binding.btnAdd.isEnabled=false
             if (validateFields()){
+                binding.progress.visibility=View.VISIBLE
+                binding.btnAdd.isEnabled=false
                 productViewModel.addProduct(binding.etName.text.toString(),selectedSpinnerItem.toString(),binding.etPrice.text.toString(),binding.etTax.text.toString(),Utils().bitmapToFile(imageBitmap))
             }
         }
