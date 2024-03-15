@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SwipeKart</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="product_list">Product List</string>
+    <string name="no_internet">No Internet</string>
+    <string name="select_product_type">Select product type</string>
+    <string name="camera_permission_denied">Camera permission denied</string>
+    <string name="camera_capture_cancelled">Camera capture cancelled</string>
+    <string name="gallery_cancelled">Image selection cancelled</string>
+    <string name="please_select_product_type">Please select product type</string>
+    <string name="please_enter_product_name">Please enter product name</string>
+    <string name="please_enter_tax_amount">Please enter tax amount</string>
+    <string name="please_enter_price">Please enter price</string>
+    <string name="enter_product_details">Enter Product Details</string>
+    <string name="enter_product_name">Enter product name</string>
+    <string name="enter_tax_amount">Enter tax amount</string>
+    <string name="enter_price">Enter price</string>
+    <string name="take_photo">Take Photo (optional)</string>
+    <string name="take_photo_gallery">Upload Photo (optional)</string>
+    <string name="add_product">Add Product</string>
+    <string name="invalid_image_format">Invalid image format</string>
+    <string name="remove_image">Remove image</string>
+</resources>

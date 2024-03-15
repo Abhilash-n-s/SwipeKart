@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/ivProductImage"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:src="@drawable/baseline_image_not_supported_24"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvProductName"
+            android:layout_marginVertical="5dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:ellipsize="end"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            app:textAllCaps="true"
+            android:textStyle="bold"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPrice"
+            android:layout_marginVertical="5dp"
+            android:gravity="center"
+            android:textColor="#808080"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:orientation="horizontal">
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:gravity="center"
+                    android:textColor="#808080"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:text="tax : "
+                    android:textStyle="bold"/>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvTaxAmt"
+                    android:layout_marginVertical="5dp"
+                    android:gravity="center"
+                    android:textColor="#808080"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:gravity="center"
+                    android:textColor="#808080"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:text="Product Type : "
+                    android:textStyle="bold"/>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvType"
+                    android:layout_marginVertical="5dp"
+                    android:gravity="center"
+                    android:textColor="#808080"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>
